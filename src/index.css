@@ -1,0 +1,32 @@
+/* File: frontend/src/index.css */
+:root {
+  --primary-color: #6D28D9;
+  --primary-hover: #5B21B6;
+  --text-dark: #1f2937;
+  --text-light: #4b5563;
+  --text-subtle: #6b7285;
+  --bg-main: #f8fafc;
+  --bg-white: #ffffff;
+  --border-color: #e5e7eb;
+  --font-sans: 'Poppins', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg-main);
+  color: var(--text-light);
+}
+
+.container {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}

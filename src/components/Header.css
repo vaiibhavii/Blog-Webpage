@@ -1,0 +1,34 @@
+.header {
+  position: relative;
+  height: 240px;
+  color: white;
+  background-image: url('../assets/bgImg.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.header-overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.header-content {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.header-content h1 {
+  font-size: 3rem; /* 48px */
+  font-weight: 800;
+}
+
+.header-content p {
+  margin-top: 0.5rem;
+  font-size: 0.875rem; /* 14px */
+}

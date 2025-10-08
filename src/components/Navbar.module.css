@@ -1,0 +1,56 @@
+.navbar {
+  background-color: var(--bg-white);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: var(--text-dark);
+}
+
+.logo img {
+  height: 32px;
+  margin-right: var(--spacing-sm);
+}
+
+.navLinks {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-lg);
+}
+
+.link {
+  color: var(--text-muted);
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.link:hover {
+  color: var(--primary-color);
+}
+
+.ctaButton {
+  background-color: var(--primary-color);
+  color: var(--bg-white);
+  padding: 10px 20px;
+  border-radius: 9999px;
+  transition: background-color 0.3s ease;
+}
+
+.ctaButton:hover {
+  background-color: var(--primary-hover);
+  color: var(--bg-white);
+}
