@@ -1,14 +1,29 @@
 .footer {
-  background-color: var(--text-dark);
-  color: #a0aec0; /* A light gray for text */
+  background-color: #0f172a; /* Dark blue from Figma */
+  color: #94a3b8;
   padding-top: 60px;
 }
-
 .footerContent {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-template-columns: 2fr 1fr 1fr; /* Updated 3-column layout */
   gap: var(--spacing-xl);
   padding-bottom: 40px;
+}
+.brandName {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--bg-white);
+  margin-bottom: var(--spacing-md);
+}
+.brandInfo p {
+  max-width: 300px;
+  line-height: 1.6;
+}
+.linksColumn h4 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--bg-white);
+  margin-bottom: var(--spacing-md);
 }
 
 .logo {
@@ -26,10 +41,6 @@
   background: white;
   border-radius: 50%;
   padding: 4px;
-}
-
-.brandInfo p {
-  max-width: 250px;
 }
 
 .linksColumn h4 {
@@ -52,6 +63,7 @@
 .linksColumn a {
   color: #a0aec0;
   transition: color 0.3s ease;
+  text-decoration: none;
 }
 
 .linksColumn a:hover {
@@ -59,7 +71,7 @@
 }
 
 .footerBottom {
-  border-top: 1px solid #4a5568; /* Darker gray for border */
+  border-top: 1px solid #4a5568;
   padding: var(--spacing-md) 0;
   text-align: center;
   font-size: 0.875rem;

@@ -1,0 +1,49 @@
+/* src/components/BlogFilters.module.css */
+.filtersSection {
+  padding: 60px 0;
+  text-align: center;
+}
+.titleContainer {
+  margin-bottom: 40px;
+}
+.subtitle {
+  display: inline-block;
+  /* background-color: var(--bg-light-purple); */
+  color: var(--primary-color);
+  padding: 4px 12px;
+  border-radius: 9999px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  max-width: 600px;
+  margin: 0 auto;
+}
+.highlight {
+  color: var(--primary-color);
+}
+.filters {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.filterButton {
+  padding: 10px 20px;
+  border-radius: 9999px;
+  border: 1px solid var(--border-color);
+  background-color: var(--bg-white);
+  color: var(--text-light);
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.filterButton.active,
+.filterButton:hover {
+  background-color: var(--primary-color);
+  color: var(--bg-white);
+  border-color: var(--primary-color);
+}

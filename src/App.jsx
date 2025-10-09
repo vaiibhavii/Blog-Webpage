@@ -1,11 +1,10 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import Header from './components/Header';
-import ServicesBanner from './components/ServicesBanner';
-import VisionMission from './components/VisionMission';
-import CoreValues from './components/CoreValues';
-import OurTeam from './components/OurTeam';
-import Blog from './components/Blog';
+import BlogFilters from './components/BlogFilters';
+import FeaturedPosts from './components/FeaturedPosts';
+import LatestPosts from './components/LatestPosts';
+import CallToAction from './components/CallToAction';
 import Footer from './components/Footer';
 
 import './index.css';
@@ -16,11 +15,10 @@ function App() {
       <Navbar />
       <main>
         <Header />
-        <ServicesBanner />
-        <VisionMission />
-        <CoreValues />
-        <OurTeam />
-        <Blog />
+        <BlogFilters />
+        <FeaturedPosts />
+        <LatestPosts />
+        <CallToAction />
       </main>
       <Footer />
     </div>

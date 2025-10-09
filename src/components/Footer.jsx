@@ -1,42 +1,36 @@
 import React from 'react';
 import styles from './Footer.module.css';
-import logo from '../assets/react.svg';
 
 const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div className={`container ${styles.footerContent}`}>
         <div className={styles.brandInfo}>
-          <div className={styles.logo}>
-            <img src={logo} alt="Logo" />
-            <span>YourBrand</span>
-          </div>
-          <p>Crafting exceptional digital experiences to help your business grow.</p>
+          <h3 className={styles.brandName}>Doet</h3>
+          <p>Connecting students, mentors, and clients to work together on real projects. Build skills, gain experience, deliver impact.</p>
         </div>
         <div className={styles.linksColumn}>
-          <h4>Company</h4>
+          <h4>Quick Links</h4>
           <ul>
+            <li><a href="#">Home</a></li>
             <li><a href="#">About Us</a></li>
             <li><a href="#">Services</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Contact</a></li>
             <li><a href="#">Blog</a></li>
+            <li><a href="#">Career</a></li>
           </ul>
         </div>
         <div className={styles.linksColumn}>
-          <h4>Support</h4>
-          <ul>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-          </ul>
-        </div>
-        <div className={styles.linksColumn}>
-          <h4>Get in touch</h4>
-          <p>123 Web Dev Street<br/>Pune, Maharashtra</p>
-          <p>contact@yourbrand.com</p>
+          <h4>Contact Information</h4>
+          <p>131, Mayur Colony,<br/>Kothrud, Pune,<br/>Maharashtra 411038</p>
+          <p>+91 9898 911230</p>
+          <p>+91 81234 98765</p>
+          <p>info@doet.com</p>
         </div>
       </div>
       <div className={styles.footerBottom}>
-        <p>&copy; {new Date().getFullYear()} YourBrand. All Rights Reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Doet. All rights reserved.</p>
       </div>
     </footer>
   );

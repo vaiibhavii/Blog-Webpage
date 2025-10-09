@@ -1,0 +1,70 @@
+.blogCard {
+  background-color: var(--bg-light-purple);
+  border-radius: 16px;
+  border: 1px solid #e9d5ff;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0; /* Important for horizontal scrolling */
+  width: 100%; /* Default width */
+}
+.imageContainer {
+  position: relative;
+  margin-bottom: 16px;
+}
+.blogImage {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.categoryTag {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(5px);
+  padding: 6px 12px;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--text-dark);
+}
+.cardContent {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+.cardTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--text-dark);
+  margin-bottom: 8px; /* Reduced margin */
+}
+.cardExcerpt {
+  color: var(--text-light);
+  margin-bottom: 16px;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+.authorInfo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.875rem;
+  color: var(--text-light);
+  margin-top: auto;
+}
+.authorImage {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.separator {
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  background-color: var(--border-color);
+  border-radius: 50%;
+}

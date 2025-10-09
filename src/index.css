@@ -1,14 +1,19 @@
-/* File: frontend/src/index.css */
 :root {
-  --primary-color: #6D28D9;
-  --primary-hover: #5B21B6;
+  --primary-color: #7c3aed;
+  --primary-hover: #6d28d9;
   --text-dark: #1f2937;
   --text-light: #4b5563;
   --text-subtle: #6b7285;
-  --bg-main: #f8fafc;
+  --bg-main: #ffffff; 
+  --bg-light-purple: #faf5ff;
   --bg-white: #ffffff;
   --border-color: #e5e7eb;
   --font-sans: 'Poppins', sans-serif;
+
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
 }
 
 * {

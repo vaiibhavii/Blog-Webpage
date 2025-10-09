@@ -1,0 +1,29 @@
+.featuredSection {
+  padding: 40px 0;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.title {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+.postsContainer {
+  display: flex;
+  gap: 32px;
+  overflow-x: auto;
+  padding-bottom: 24px;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.postsContainer::-webkit-scrollbar {
+  display: none;
+}
+.postWrapper {
+  width: 48%;
+  flex-shrink: 0;
+}
